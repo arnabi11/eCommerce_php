@@ -7,9 +7,10 @@
 
 <link href="styles/bootstrap.min.css" rel="stylesheet">
 
-<link href="styles/style.css" rel="stylesheet">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
 
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/footer.css">
 
 </head>
 

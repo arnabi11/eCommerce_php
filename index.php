@@ -427,7 +427,7 @@ Free returns on everything for 3 months. </p>
 </div>
 </div>
 
-<?php
+ <?php
 
 include("includes/footer.php");
 
@@ -437,6 +437,5 @@ include("includes/footer.php");
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script> 
 </body>
-
 
 </html>

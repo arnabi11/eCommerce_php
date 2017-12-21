@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -99,7 +101,7 @@ Go to Cart
 <a href="index.php"> Home </a>
 </li>
 
-<li class="active">
+<li>
 <a href="shop.php"> Shop </a>
 </li>
 
@@ -120,7 +122,7 @@ Go to Cart
 
 </li>
 
-<li>
+<li class="active">
 <a href="contact.php"> Contact Us </a>
 </li>
 
@@ -190,7 +192,7 @@ Go to Cart
 <a href="index.php">Home</a>
 </li>
 
-<li>Shop</li>
+<li>Contact Us</li>
 
 </ul><!-- breadcrumb Ends -->
 
@@ -204,242 +206,77 @@ Go to Cart
 </div><!-- col-md-3 end-->
 
 <div class="col-md-9"><!-- col-md-9 start-->
-
+	
 <div class="box"><!-- box start-->
-
-<h1>Shop</h1>
-
-<p>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '
-
-</p>
-
-</div><!--box end-->
-
-<div class="row"><!--row start-->
-
-<div class="col-md-4 col-sm-6 center-responsive"><!--col-md-4 col-sm-6 center-responsive start-->
-<div class="product"><!--product start-->
-
-<a href="details.php"><!-- a start-->
-
-<img src="admin_area/product_images/product.jpg" class="img-responsive">
-
-</a><!-- a end-->
-
-<div class="text">
-
-<h3>
-<a href="details.php">Marvel Bla</a>
-</h3>
-
-<p class="price">$50</p>
-
-<p class="buttons">
-
-<a href="details.php" class="btn btn-default">View details</a>
-
-<a href="details.php" class="btn btn-primary">
-<i class="fa fa-shopping-cart"></i> Add to Cart
-</a>
-
-
-</p>
-</div>
-</div><!--product end-->
-</div><!--col-md-4 col-sm-6 center-responsive end-->
-
-
-
-<div class="col-md-4 col-sm-6 center-responsive"><!--col-md-4 col-sm-6 center-responsive start-->
-<div class="product"><!--product start-->
-
-<a href="details.php"><!-- a start-->
-
-<img src="admin_area/product_images/product.jpg" class="img-responsive">
-
-</a><!-- a end-->
-
-<div class="text">
-
-<h3>
-<a href="details.php">Marvel Bla</a>
-</h3>
-
-<p class="price">$50</p>
-
-<p class="buttons">
-
-<a href="details.php" class="btn btn-default">View details</a>
-
-<a href="details.php" class="btn btn-primary">
-<i class="fa fa-shopping-cart"></i> Add to Cart
-</a>
-
-
-</p>
-</div>
-</div><!--product end-->
-</div><!--col-md-4 col-sm-6 center-responsive end-->
-
-
-
-
-<div class="col-md-4 col-sm-6 center-responsive"><!--col-md-4 col-sm-6 center-responsive start-->
-<div class="product"><!--product start-->
-
-<a href="details.php"><!-- a start-->
-
-<img src="admin_area/product_images/product.jpg" class="img-responsive">
-
-</a><!-- a end-->
-
-<div class="text">
-
-<h3>
-<a href="details.php">Marvel Bla</a>
-</h3>
-
-<p class="price">$50</p>
-
-<p class="buttons">
-
-<a href="details.php" class="btn btn-default">View details</a>
-
-<a href="details.php" class="btn btn-primary">
-<i class="fa fa-shopping-cart"></i> Add to Cart
-</a>
-
-
-</p>
-</div>
-</div><!--product end-->
-</div><!--col-md-4 col-sm-6 center-responsive end-->
-
-
-
-
-<div class="col-md-4 col-sm-6 center-responsive"><!--col-md-4 col-sm-6 center-responsive start-->
-<div class="product"><!--product start-->
-
-<a href="details.php"><!-- a start-->
-
-<img src="admin_area/product_images/product.jpg" class="img-responsive">
-
-</a><!-- a end-->
-
-<div class="text">
-
-<h3>
-<a href="details.php">Marvel Bla</a>
-</h3>
-
-<p class="price">$50</p>
-
-<p class="buttons">
-
-<a href="details.php" class="btn btn-default">View details</a>
-
-<a href="details.php" class="btn btn-primary">
-<i class="fa fa-shopping-cart"></i> Add to Cart
-</a>
-
-
-</p>
-</div>
-</div><!--product end-->
-</div><!--col-md-4 col-sm-6 center-responsive end-->
-
-
-
-
-<div class="col-md-4 col-sm-6 center-responsive"><!--col-md-4 col-sm-6 center-responsive start-->
-<div class="product"><!--product start-->
-
-<a href="details.php"><!-- a start-->
-<img src="admin_area/product_images/product.jpg" class="img-responsive">
-</a><!-- a end-->
-
-<div class="text">
-
-<h3>
-<a href="details.php">Marvel Bla</a>
-</h3>
-
-<p class="price">$50</p>
-
-<p class="buttons">
-
-<a href="details.php" class="btn btn-default">View details</a>
-
-<a href="details.php" class="btn btn-primary">
-<i class="fa fa-shopping-cart"></i> Add to Cart
-</a>
-
-</p>
-</div>
-</div><!--product end-->
-</div><!--col-md-4 col-sm-6 center-responsive end-->
-
-
-<div class="col-md-4 col-sm-6 center-responsive"><!--col-md-4 col-sm-6 center-responsive start-->
-<div class="product"><!--product start-->
-
-<a href="details.php">
-<img src="admin_area/product_images/product.jpg" class="img-responsive">
-</a><!-- a end-->
-
-<div class="text">
-
-<h3>
-<a href="details.php">Marvel Bla</a>
-</h3>
-
-<p class="price">$50</p>
-
-<p class="buttons">
-
-<a href="details.php" class="btn btn-default">View details</a>
-
-<a href="details.php" class="btn btn-primary">
-<i class="fa fa-shopping-cart"></i> Add to Cart
-</a>
-
-
-</p>
-</div>
-</div><!--product end-->
-</div><!--col-md-4 col-sm-6 center-responsive end-->
-
-</div><!-- row end-->
-
-<center>
-<ul class="pagination">
-
-<li><a href="shop.php">First Page</a></li>
-<li><a href="shop.php">1</a></li>
-<li><a href="shop.php">2</a></li>
-<li><a href="shop.php">3</a></li>
-<li><a href="shop.php">4</a></li>
-<li><a href="shop.php">5</a></li>
-<li><a href="shop.php">Last Page</a></li>
-
-</ul>
-</center>
-
-
+	
+<div class="box-header"><!-- box-header start-->
+	
+<center><!-- center start-->
+	
+<h2>Contact Us</h2>
+
+<p class="text-muted">
+	If you have any questions, please feel free to contact us, our customer service center is working for you 24/7.
+</p>	
+
+</center><!-- center end-->
+		
+</div><!-- box-header end-->
+
+<form action="contact.php" method="post"><!-- form start-->
+	
+<div class="form-group"><!-- form-group start-->
+	
+<label>Name</label>
+
+<input type="text" class="form-control" name="name" required>
+</div><!-- form-group end-->
+
+<div class="form-group"><!-- form-group start-->
+	
+<label>Email</label>
+<input type="text" class="form-control" name="email" required>	
+</div><!-- form-group end-->
+
+<div class="form-group"><!-- form-group start-->
+	
+<label>Subject</label>
+<input type="text" class="form-control" name="subject" required>	
+</div><!-- form-group end-->
+
+<div class="form-group"><!-- form-group start-->
+	
+<label>Message</label>
+
+<textarea class="form-control" name="message"></textarea>
+	
+</div><!-- form-group end-->
+
+<div class="text-center"><!-- text-center start-->
+	
+<button type="submit" name="submit" class="btn btn-primary">
+	
+	<i class="fa fa-user-md"></i>Send Message
+	
+</button>
+
+</div><!-- text-center end-->
+
+</form><!-- form end-->
+	
+</div><!-- box end-->
+	
 </div><!-- col-md-9 end-->
+	
+</div><!-- container Ends -->
 
-</div><!--container end-->
-</div><!--content end-->
+</div><!-- content Ends -->
 
-
- <?php
+<?php
 
 include("includes/footer.php");
 
 ?>
-
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script> 
