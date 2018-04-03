@@ -9,13 +9,13 @@
 
 <ul><!-- ul start-->
 
-<li><a href="cart.php">Shopping Cart</a></li>
+<li><a href="../cart.php">Shopping Cart</a></li>
 
-<li><a href="contact.php">Contact Us</a></li>
+<li><a href="../contact.php">Contact Us</a></li>
 
-<li><a href="shop.php">Shop</a></li>
+<li><a href="../shop.php">Shop</a></li>
 
-<li><a href="checkout.php">My Account</a></li>
+<li><a href="my_account.php">My Account</a></li>
 
 </ul><!-- ul end-->
 
@@ -25,9 +25,9 @@
 
 <ul><!-- ul start-->
 
-<li><a href="checkout.php">Login</a></li>
+<li><a href="../checkout.php">Login</a></li>
 
-<li><a href="customer_register.php">Register</a></li>
+<li><a href="../customer_register.php">Register</a></li>
 
 </ul><!-- ul end-->
 
@@ -68,7 +68,7 @@
 
 </p><!-- p end-->
 
-<a href="contact.php">Go to Contact us page</a>
+<a href="../contact.php">Go to Contact us page</a>
 
 <hr class="hidden-md hidden-lg">
 

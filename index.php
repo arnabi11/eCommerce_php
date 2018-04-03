@@ -1,3 +1,9 @@
+<?php
+
+include("includes/db.php");
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -104,7 +110,7 @@ Go to Cart
 </li>
 
 <li>
-<a href='checkout.php' >My Account</a></li>
+<a href="customer/my_account.php" >My Account</a></li>
 
 <li>
 <a href="cart.php"> Shopping Cart </a>
@@ -198,20 +204,65 @@ Go to Cart
 
 <div class="carousel-inner"><!-- carousel-inner Starts -->
 
+<?php
+ 
+ $get_slides = "select * from slider LIMIT 0,1";
+
+ $run_slides = mysqli_query($conn,$get_slides);
+
+ while ($row_slides=mysqli_fetch_array($run_slides)) {
+ 	# code...
+$slide_name = $row_slides['slide_name'];
+
+$slide_image = $row_slides['slide_image'];
+
+echo "
+
 <div class='item active'>
 
-<img src='admin_area/slides_images/1.jpg'></a>
+<img src='admin_area/slides_images/$slide_image'>
+</div>
+";
+ }
+
+?>
+
+<?php
+
+$get_slides = "select * from slider LIMIT 1,3";
+
+$run_slides = mysqli_query($conn,$get_slides);
+
+while ($row_slides=mysqli_fetch_array($run_slides)) {
+ 	# code...
+$slide_name = $row_slides['slide_name'];
+
+$slide_image = $row_slides['slide_image'];
+
+echo "
+
+<div class='item'>
+
+<img src='admin_area/slides_images/$slide_image'>
+</div>
+";
+
+ }
+
+?>
+<!--
+<img src='admin_area/slides_images/1.jpg'>
 
 </div>
 
 <div class='item'>
 
-<img src='admin_area/slides_images/2.jpg'></a>
+<img src='admin_area/slides_images/2.jpg'>
 
 </div>
 
 <div class="item">
-<img src='admin_area/slides_images/3.jpg'></a>
+<img src='admin_area/slides_images/3.jpg'>
 
 </div>
 
@@ -219,7 +270,7 @@ Go to Cart
 
 <img src='admin_area/slides_images/4.jpg'>
 
-</div>
+</div>-->
 
 
 </div><!-- carousel-inner Ends -->

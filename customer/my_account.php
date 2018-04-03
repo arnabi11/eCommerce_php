@@ -37,22 +37,22 @@ Shopping Cart Total Price: $0, Total Items </a>
 <ul class="menu"><!-- menu Starts -->
 
 <li>
-<a href="customer_register.php">
+<a href="../customer_register.php">
 Register
 </a>
 </li>
 
 <li>
-<a href='checkout.php' >My Account</a></li>
+<a href='my_account.php' >My Account</a></li>
 
 <li>
-<a href="cart.php">
+<a href="../cart.php">
 Go to Cart
 </a>
 </li>
 
 <li>
-<a href='checkout.php'> Login </a></li>
+<a href='../checkout.php'> Login </a></li>
 
 </ul><!-- menu Ends -->
 
@@ -99,32 +99,32 @@ Go to Cart
 <ul class="nav navbar-nav navbar-left"><!-- nav navbar-nav navbar-left Starts -->
 
 <li>
-<a href="index.php"> Home </a>
+<a href="../index.php"> Home </a>
 </li>
 
 <li>
-<a href="shop.php"> Shop </a>
+<a href="../shop.php"> Shop </a>
+</li>
+
+<li class="active">
+<a href="my_account.php" >My Account</a></li>
+
+<li>
+<a href="../cart.php"> Shopping Cart </a>
 </li>
 
 <li>
-<a href="customer/my_account.php" >My Account</a></li>
-
-<li>
-<a href="cart.php"> Shopping Cart </a>
-</li>
-
-<li>
-<a href="about.php"> About Us </a>
+<a href="../about.php"> About Us </a>
 </li>
 
 <li>
 
-<a href="services.php"> Services </a>
+<a href="../services.php"> Services </a>
 
 </li>
 
 <li>
-<a href="contact.php"> Contact Us </a>
+<a href="../contact.php"> Contact Us </a>
 </li>
 
 </ul><!-- nav navbar-nav navbar-left Ends -->
@@ -192,7 +192,7 @@ Go to Cart
 <a href="index.php">Home</a>
 </li>
 
-<li>Register</li>
+<li>My Account</li>
 
 </ul><!-- breadcrumb Ends -->
 
@@ -200,8 +200,13 @@ Go to Cart
 
 </div><!--- col-md-12 Ends -->
 
-
 <div class="col-md-12" ><!-- col-md-12 Starts -->
+
+<div class="col-md-3"><!-- col-md-3 start-->
+
+<?php include("includes/sidebar.php"); ?>
+
+</div><!-- col-md-3 end-->
 
 <div class="box" ><!-- box Starts -->
 

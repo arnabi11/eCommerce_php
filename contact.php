@@ -106,7 +106,7 @@ Go to Cart
 </li>
 
 <li>
-<a href='checkout.php' >My Account</a></li>
+<a href="customer/my_account.php" >My Account</a></li>
 
 <li>
 <a href="cart.php"> Shopping Cart </a>
